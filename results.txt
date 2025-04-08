@@ -1,3 +1,5 @@
+Chunk Size 150
+
 ===== Testing model: llama3.2 (Params: Unknown) =====
 
 Question 1: What is the overall summary of the document?

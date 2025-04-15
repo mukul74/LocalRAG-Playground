@@ -62,23 +62,23 @@ while True:
 
     print(result)
 
-# After the loop ends, plot the time profile for each function
-def plot_times():
-    # Plot the time profile for both functions
-    plt.figure(figsize=(10, 6))
+# # After the loop ends, plot the time profile for each function
+# def plot_times():
+#     # Plot the time profile for both functions
+#     plt.figure(figsize=(10, 6))
 
-    # Plotting retrieval times
-    plt.plot(execution_times["retrive"], label="Retrive Function Time", marker='o')
-    # Plotting answering times
-    plt.plot(execution_times["answer"], label="Answer Function Time", marker='o')
+#     # Plotting retrieval times
+#     plt.plot(execution_times["retrive"], label="Retrive Function Time", marker='o')
+#     # Plotting answering times
+#     plt.plot(execution_times["answer"], label="Answer Function Time", marker='o')
 
-    plt.title("Execution Times of Functions")
-    plt.xlabel("Iteration")
-    plt.ylabel("Time (seconds)")
-    plt.legend()
-    plt.grid(True)
-    # plt.show()
-    plt.savefig("my_plot.png")
+#     plt.title("Execution Times of Functions")
+#     plt.xlabel("Iteration")
+#     plt.ylabel("Time (seconds)")
+#     plt.legend()
+#     plt.grid(True)
+#     # plt.show()
+#     plt.savefig("my_plot.png")
 
-# Call the plot function to display the graph after exiting the loop
-plot_times()
+# # Call the plot function to display the graph after exiting the loop
+# plot_times()
